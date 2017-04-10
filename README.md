@@ -46,6 +46,7 @@ Neo4j store any kind of data using the following graph concepts:
 * **Property**: Stores data in key-value pair in nodes and relationships
 * **Label**: Groups nodes and relationships (optional)
 
+![](https://neo4j.com/docs/2.1.8/images/graphdb-nodes-overview.svg)
 ---
 
 ### In my project I planning to store following data:
