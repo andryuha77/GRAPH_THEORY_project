@@ -35,7 +35,6 @@ Graph databases are built for use with transactional (OLTP) systems and are engi
 
 Neo4j is a graph database management system developed by Neo Technology, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing, Neo4j is the most popular graph database according to db-engines.com.
 
-## Architecture
 ### Neo4j Fundamentals:
 
 Neo4j store any kind of data using the following graph concepts:
@@ -60,6 +59,19 @@ Current [Time Table](http://timetable.gmit.ie/) system in GMIT represented by 3 
 I my opinion current GMIT time-table is well implemented, of course there is always some confusion in start of the year but it is acceptable as it many constraints must be taken in consideration like resource constraints (expressing that only one course can be taught by an instructor or in a particular room at the same time), and group constraints (expressing relations between several classes, e.g., that two sections of the same lecture cannot be taught at the same time, or that some classes have to be taught one immediately after another).
 But anything can be improved, for example by adding another section to GMIT time-table like “Subject” where user can generate time table for specific subject.
 
+## Architecture
+
+### List my Questions.
+
+First, I start by listing my questions that I want to answer about time table.
+* What time starts college on Monday for Software Development group year 3?
+* What subject will I have on Thursday 12:00?
+*	Who is the lecturer for lab on Friday 9:00?
+*	What room lecture take place on Wednesday 14:00?
+
+From these questions, I can identify the attributes that must belong to entities within time table .
+
+
 ### In my project I planning to store following data:
 
 * **Days of week**:  save as nodes 
@@ -69,7 +81,7 @@ But anything can be improved, for example by adding another section to GMIT time
 * **Students_roups**:  save as nodes
 * **lecturer**: save as nodes
 ##### Relationships between nodes:
-* stude
+* stude....
 
 
 
