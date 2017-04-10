@@ -49,6 +49,17 @@ Neo4j store any kind of data using the following graph concepts:
 ![](https://neo4j.com/docs/2.1.8/images/graphdb-nodes-overview.svg)
 ---
 
+## Current Time Table system in GMIT.
+
+Current [Time Table](http://timetable.gmit.ie/) system in GMIT represented by 3 main Sections:
+* Programme Timetables – most used by me and other students, where user can generate time table by selecting his Program name. 
+* Location Timetables – section where user can select specific room and generate time table for that room. Might be handy for someone who looking for free lab or cleaning staff.
+* Staff Timetables – this section probably created for lecturers where they can generate own time-table depending on their staff ID 
+
+### How it can be improved?
+I my opinion current GMIT time-table is well implemented, of course there is always some confusion in start of the year but it is acceptable as it many constraints must be taken in consideration like resource constraints (expressing that only one course can be taught by an instructor or in a particular room at the same time), and group constraints (expressing relations between several classes, e.g., that two sections of the same lecture cannot be taught at the same time, or that some classes have to be taught one immediately after another).
+But anything can be improved, for example by adding another section to GMIT time-table like “Subject” where user can generate time table for specific subject.
+
 ### In my project I planning to store following data:
 
 * **Days of week**:  save as nodes 
@@ -72,4 +83,4 @@ Neo4j: https://en.wikipedia.org/wiki/Neo4j
 
 neo4j.com: https://neo4j.com/why-graph-databases/
 
-
+unitime.org: http://www.unitime.org/uct_description.php
