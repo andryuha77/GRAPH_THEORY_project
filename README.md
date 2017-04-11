@@ -85,8 +85,9 @@ From these questions, I can identify the attributes that must belong to entities
 * lecturer -[:teaches_AT]-> Day&Time
 * Subject -[:taught_AT]-> Day&Time
 
-#### How I obtained the data in your prototype database.
-http://timetable.gmit.ie/
+#### How I obtained the data in my prototype database.
+
+To obtain data for my prototype database I navigate to page with desired data for example page with [“Programs” in Galway Campus – Dept. of Science & Applied Physics](http://timetable.gmit.ie/sws1617/(S(rwrgvynib4m3ja45vt2p40iw))/default.aspx), then right click on page select “View page source”  copied needed data to notepad++ end remove unwanted data by using f+Ctrl to find unwanted text and replaced it with space.
 
 ### How to run the application
 
