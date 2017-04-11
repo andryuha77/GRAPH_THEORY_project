@@ -74,16 +74,16 @@ From these questions, I can identify the attributes that must belong to entities
 
 ### In my project I planning to store following data:
 
-* **Days of week**:  save as nodes 
-* **Time**:  save as nodes
+* **Day&Time**:  save as nodes
 * **Room**: save as nodes
 * **Subject name**: save as nodes
-* **Students_roups**:  save as nodes
+* **Students_GRP**:  save as nodes
 * **lecturer**: save as nodes
 ##### Relationships between nodes:
-* stude....
-
-
+* Students_GRP -[:Attends]-> Day&Time
+* Room -[:Room_For]-> Day&Time
+* lecturer -[:teaches_AT]-> Day&Time
+* Subject -[:taught_AT]-> Day&Time
 
 #### How I obtained the data in your prototype database.
 http://timetable.gmit.ie/
