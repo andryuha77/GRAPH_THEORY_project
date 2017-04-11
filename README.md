@@ -102,7 +102,7 @@ From these questions, I can identify the attributes that must belong to entities
 * lecturer -[:teaches_AT]-> Day&Time
 * Subject -[:taught_AT]-> Day&Time
 
->I planning to create a calendar in neo4j with hours and the connect other nodes (rooms, groups ex.) to it. 
+>I planning to create a calendar using this [example](http://www.markhneedham.com/blog/2014/04/19/neo4j-cypher-creating-a-time-tree-down-to-the-day/) in neo4j, add hours and then connect other nodes (rooms, groups ex.) to it. 
 
 #### How I obtained the data in my prototype database.
 
