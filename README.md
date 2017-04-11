@@ -35,6 +35,23 @@ Graph databases are built for use with transactional (OLTP) systems and are engi
 
 Neo4j is a graph database management system developed by Neo Technology, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing, Neo4j is the most popular graph database according to db-engines.com.
 
+### Why Neo4j?
+
+ Easy to Learn
+* Mature UI with intuitive interaction and built-in learning
+* Time-tested training ecosystem to meet your needs
+* A wealth of training materials bringing years of deployment experience to your desktop
+* Expert-authored books for in-depth learning
+
+Easy to Use
+
+Choose Cypher, the world’s most powerful and productive graph query language, or the native Java API for writing custom special-purpose extensions. Pick from APIs and drivers for all major languages, and enjoy the other numerous developer productivity enhancements in Neo4j’s intuitive user interface.
+
+Easier than Ever to Load Your Data into Neo4j
+
+* Staggering loading speed of huge data sizes, with very low memory footprint
+* Choose how much and which data to import, without worrying about volume
+
 ### Neo4j Fundamentals:
 
 Neo4j store any kind of data using the following graph concepts:
