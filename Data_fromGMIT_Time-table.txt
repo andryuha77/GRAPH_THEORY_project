@@ -1,0 +1,254 @@
+
+
+G-KBDIG72 BSc in Business Computing &amp; Digital Media L7 Yr 2 Sem 4
+G-KBDIG73 BSc in Business Computing &amp; Digital Media L7 Yr 3 Sem 6
+G-KCDMG71 BSc in Business Computing &amp; Digital Media L7 Yr 1 Sem 2
+G-KCDMG81 BSc in Business Computing &amp; Digital Media L8 Yr 1 Sem 2
+G-KCDMG84 BSc in Computing and Digital Media L8 Yr 4 Sem 8
+G-KITAG84 BSc in Information Technology for Business L8 Yr 4 Sem 7
+G-KITAG84 BSc in Information Technology for Business L8 Yr 4 Sem 8
+G-KSOAG81 BSc (HONOURS) in Computing in Software Development L8 Yr 1 Sem 2
+G-KSOAG82 BSc (HONOURS) in Computing in Software Development L8 Yr 2 Sem 4
+G-KSOFG1 BSc in Computing in Software Development Yr 1 Sem 2
+G-KSOFG72 BSc in Software Development L7 Yr 2 Sem 4
+G-KSOFG73 BSc in Computing in Software Development L7 Yr 3 Sem 6
+G-KSOFGH84 BSc in Software Development L8 Yr 4 Sem 8
+G-KSOFGL84 HDip in Science Software Development L8 Yr 4 Sept-Dec2017
+G-KSOFN62 BSc in Computing in Software Development L6 Yr 2 Sem 4
+
+
+
+wk  1 w/c 22 Aug 2016
+wk  2 w/c 29 Aug 2016
+wk  3 w/c 05 Sep 2016
+wk  4 w/c 12 Sep 2016
+wk  5 w/c 19 Sep 2016
+wk  6 w/c 26 Sep 2016
+wk  7 w/c 03 Oct 2016
+wk  8 w/c 10 Oct 2016
+wk  9 w/c 17 Oct 2016
+wk  10 w/c 24 Oct 2016
+wk  11 w/c 31 Oct 2016
+wk  12 w/c 07 Nov 2016
+wk  13 w/c 14 Nov 2016
+wk  14 w/c 21 Nov 2016
+wk  15 w/c 28 Nov 2016
+wk  16 w/c 05 Dec 2016
+wk  17 w/c 12 Dec 2016
+wk  18 w/c 19 Dec 2016
+wk  19 w/c 26 Dec 2016
+wk  20 w/c 02 Jan 2017
+wk  21 w/c 09 Jan 2017
+wk  22 w/c 16 Jan 2017
+wk  23 w/c 23 Jan 2017
+wk  24 w/c 30 Jan 2017
+wk  25 w/c 06 Feb 2017
+wk  26 w/c 13 Feb 2017
+wk  27 w/c 20 Feb 2017
+wk  28 w/c 27 Feb 2017
+wk  29 w/c 06 Mar 2017
+wk  30 w/c 13 Mar 2017
+wk  31 w/c 20 Mar 2017
+wk  32 w/c 27 Mar 2017
+wk  33 w/c 03 Apr 2017
+wk  34 w/c 10 Apr 2017
+wk  35 w/c 17 Apr 2017
+wk  36 w/c 24 Apr 2017
+wk  37 w/c 01 May 2017
+wk  38 w/c 08 May 2017
+wk  39 w/c 15 May 2017
+wk  40 w/c 22 May 2017
+wk  41 w/c 29 May 2017
+wk  42 w/c 05 Jun 2017
+wk  43 w/c 12 Jun 2017
+wk  44 w/c 19 Jun 2017
+wk  45 w/c 26 Jun 2017
+wk  46 w/c 03 Jul 2017
+wk  47 w/c 10 Jul 2017
+wk  48 w/c 17 Jul 2017
+wk  49 w/c 24 Jul 2017
+wk  50 w/c 31 Jul 2017
+wk  51 w/c 07 Aug 2017
+wk  52 w/c 14 Aug 2017
+
+
+09:00 A.M. to 10:00 A.M. (1st Slot)
+03:00 P.M. to 05:00 P.M. (2nd Slot)
+6:30 P.M. to 07:00 P.M.(3rd Slot)
+so on....
+
+User A -Meeting-> User B
+
+Date-10/01/2014
+Time-11:00 AM - 01:00 PM
+
+User A is free at 
+
+Date-11/01/2014
+Time-09:00 AM - 10:00 AM
+
+Weekdays
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+
+
+
+Rooms with number of sits
+
+G Prefab 02 (18)
+G Prefab 03 (22)
+G Prefab 04 (22)
+G Prefab 05 (33)
+G Prefab 06 (20)
+G Prefab 07 (48)
+G Prefab 08 (18)
+G Prefab 09 (18)
+G Prefab 10 Exam Room (65)
+G Prefab 18 (25)
+G Reception Foyer New Building (200)
+G0130 Hydraulics Lab (18)
+G0131 Dissection Lab (30)
+G0141 AMT Lab (24)
+G0143 Eng Sci Lab (20)
+G0145 (28)
+G0148 Concrete Lab (16)
+G0150 Civil Structures Lab (12)
+G0152 Environmental Lab (12)
+G0153 (38)
+G0154 (38)
+G0156 (38)
+G0157 (38)
+G0158 (38)
+G0159 (38)
+G0162 (30)
+G0165 (83)
+G0208 (80)
+G0209 (56)
+G0210 Nimbus Lab (22)
+G0213b Burren Lab (21)
+G0215 Arann Lab (27)
+G0217 Corrib Lab (29)
+G0223 (80)
+G0224 Computer and CAD Lab (28)
+G0225 Civil Eng Project Room (24)
+G0226 Project Room (24)
+G0227 Computer and CAD Lab (31)
+G0228 Architectual Studio (32)
+G0229 Project Room (24)
+G0230 Project Room (24)
+G0231b (40)
+G0301 Aquatic Ecology Lab (16)
+G0304 CR6 - General Science Lab (24)
+G0306 Biology Lab (18)
+G0309 Biology Lab (20)
+G0310 Biology Lab (20)
+G0315a Physicst Lab (16)
+G0315b Physicst Lab (16)
+G0315c Physicst Lab (16)
+G0318 Aquatic Science Lab (18)
+G0347 Exam Room (85)
+G0351 (20)
+G0364 (57)
+G0365 (57)
+G0366 (57)
+G0367a (2)
+G0367b (2)
+G0368 (38)
+G0369 (38)
+G0370 (38)
+G0373 (39)
+G0374 (47)
+G0375 (32)
+G0376 (35)
+G0377 (35)
+G0378 (45)
+G0379 (35)
+G0380 (42)
+G0402 Biochemistry Lab (18)
+G0405 Biochem/Chemistry Lab (18)
+G0411 Chromotography Lab (20)
+G0422 Electro Chem Lab (18)
+G0436 CR5 (25)
+G0450 Grey Lab (16)
+G0451 Microbiology Lab (18)
+G0470 Computing Practical Lab (35)
+G0471 Med Lab (18)
+G0475 Molecular Biology Lab (24)
+G0476 Food Science Lab/Wine Room (16)
+G0478 Green Lab (24)
+G0479 Blue Lab (24)
+G0480 CR7 (24)
+G0481 CR4 (21)
+G0482 CR3 (25)
+G0483 CR2 (22)
+G0484 CR1 (20)
+G0501 Electronic CAD Lab (24)
+G0502 Physics Lab (20)
+G0506 Computer Lab (20)
+G0507 Computer Lab (16)
+G0508 Computer Lab (20)
+G0511 Lab (16)
+G0526/7 City of Galway Training Rest &amp; Bar (50)
+G0526/7 IQ Bar (50)
+G0550 Unit 6 (16)
+G0552 Demo Theatre (110)
+G0559 Unit 8 Pastry Kitchen (16)
+G0560 Accommodation and Front Office Suite (32)
+G0602 Chemistry Lab (20)
+G0603 Lab (20)
+G0610 Organic Chemistry Lab (18)
+G0615 Unit 9 (20)
+G0616 Unit 1 (16)
+G0623 Unit 3 (16)
+G0625 Unit 4 (16)
+G0626 Unit 5 (16)
+G0629 Microbiology Lab (18)
+G0632 Retail Lab (20)
+G0637 Unit 10 (16)
+G0701 Physics Lab (18)
+G0702 Physics Lab (18)
+G0703 Physics Lab (8)
+G0704 Physics Lab (8)
+G0707 CAD/CAM Lab (24)
+G0724b W/S (20)
+G0724C W/S CNC/Pen Factory (50)
+G0724d Energy Fluid Lab (50)
+G0728a Garage (24)
+G0731 Wiring and Motor Control Installation Workshop (16)
+G0736 Electrical and Electronic Projects Lab (16)
+G0813 Computer Lab/PBL (20)
+G0827 Electronics Lab (20)
+G0828 Electronics Lab (20)
+G0830 Electronics Lab (20)
+G0832 Electronics Lab (20)
+G0834 Computer Lab/PBL (23)
+G0835 Info Technology Computer Lab (20)
+G0837 (81)
+G0841 Wine Geese Training Bar (100)
+G0842 Connemara Upstairs Training Rest (50)
+G0843 Unit 12 (16)
+G0903 (250)
+G0907 Language Lab (20)
+G0910 Language Lab (20)
+G0938 (60)
+G0939 (90)
+G0940 (90)
+G0941 (150)
+G0994 (150)
+G0995 (90)
+G0996 (90)
+G0997 (60)
+G1000 Blue Theatre (288)
+G1031 (34)
+G1032 (34)
+G1033 (34)
+G1034 (34)
+G1035 (34)
+G1036 (30)
+G1039 (60)
+G1041 Video Conference Room (60)
+
