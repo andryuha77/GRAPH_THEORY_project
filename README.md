@@ -106,6 +106,8 @@ From these questions, I can identify the attributes that must belong to entities
 
 To obtain data for my prototype database I navigate to page with desired data for example page with [“Programs” in Galway Campus – Dept. of Science & Applied Physics](http://timetable.gmit.ie/sws1617/(S(rwrgvynib4m3ja45vt2p40iw))/default.aspx), then right click on page select “View page source”  copied needed data to notepad++ end remove unwanted data by using f+Ctrl to find unwanted text and replaced it with space.
 
+[Notepad vertical selection](http://stackoverflow.com/questions/1802616/how-to-select-columns-in-editors-atom-notepad-kate-vim-sublime-textpad-et) also very handy to use: in Notepad++ , you can select a particular columnholding ctrl + alt + shift and then left click mouse button and drag to select. Go to left top of the page. hold "shift key Now use right arrow key to select column. Now click "down arrow" key.
+
 ### How to run the application
 
 ### References:
@@ -114,3 +116,5 @@ Neo4j: https://en.wikipedia.org/wiki/Neo4j
 neo4j.com: https://neo4j.com/why-graph-databases/
 
 unitime.org: http://www.unitime.org/uct_description.php
+
+[Notepad vertical selection](http://stackoverflow.com/questions/1802616/how-to-select-columns-in-editors-atom-notepad-kate-vim-sublime-textpad-et)
