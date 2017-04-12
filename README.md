@@ -104,6 +104,10 @@ From these questions, I can identify the attributes that must belong to entities
 
 >I planning to create a calendar using this [example](http://www.markhneedham.com/blog/2014/04/19/neo4j-cypher-creating-a-time-tree-down-to-the-day/) in neo4j, add hours and then connect other nodes (rooms, groups ex.) to it. 
 
+12/04/2017 Calendar created with addition of hours and Labels with day names added to day nodes. 
+
+Used queries included in  [ne4j_queries file](https://github.com/andryuha77/GRAPH_THEORY_project/blob/master/ne4j_queries.js) 
+
 #### How I obtained the data in my prototype database.
 
 To obtain data for my prototype database I navigate to page with desired data for example page with [“Programs” in Galway Campus – Dept. of Science & Applied Physics](http://timetable.gmit.ie/sws1617/(S(rwrgvynib4m3ja45vt2p40iw))/default.aspx), then right click on page select “View page source”  copied needed data to notepad++ end remove unwanted data by using f+Ctrl to find unwanted text and replaced it with space.
