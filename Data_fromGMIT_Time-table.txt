@@ -252,3 +252,34 @@ G1036 (30)
 G1039 (60)
 G1041 Video Conference Room (60)
 
+
+Subjects
+
+40452 -- Database Management
+41873 -- Operating Systems 1
+41879 -- Data Centric Rad
+41883 -- Graphics Programming
+41889 -- Mobile Applications Development 2
+41891 -- Professional Practice in IT
+41895 -- Server Side Rad
+41911 -- Software Quality Management
+47197 -- Software Testing
+48898 -- Data Representation and Querying
+48901 -- Graph Theory
+50457 -- Object Oriented Programming
+
+
+Teachers
+
+Teacher: Damien Costello e-mail Damien.Costello@gmit.ie
+Teacher: Daniel Cregg e-mail Daniel.Cregg
+Teacher: Gerard Harrison e-mail
+Teacher: John Healy e-mail
+Teacher: Martin Hynes e-mail
+Teacher: Martin Kenirons e-mail
+Teacher: Patrick Mannion e-mail
+Teacher: Brian McGinley e-mail
+Teacher: Ian McLoughlin e-mail
+Teacher: Kevin OBrien e-mail
+Teacher: Deirdre ODonovan e-mail
+Teacher: Joseph McGinley e-mail
