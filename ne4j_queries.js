@@ -120,7 +120,6 @@ MATCH (d)-[:CONTAINS]->(h:Hour) Where h.value = 10
 match (r:Room) Where r.rNum = "G0994"
 match (s:Subject) Where s.subName = "Database Management"
 match (t:Teacher) Where t.tachName = "Deirdre ODonovan"
-match (t:Teacher) Where t.tachName = "Deirdre ODonovan"
 match (z:StudProgram) Where z.spNum = "G-KSOFG73"
 //CREATE (s)-[:taught_AT]->(h)
 //CREATE (t)-[:teaches_AT]->(h)
@@ -128,23 +127,23 @@ match (z:StudProgram) Where z.spNum = "G-KSOFG73"
 RETURN y, m, d, h, r, s, t, z;		
 	
 
-////match all mondays in 2017 month 9-12 , room g0994 , relation betwen room and hour.....
+////match all mondays in 2017 month 9-12 , room G0995 , relation betwen room and hour.....
 MATCH (y:Year) WHERE y.value = 2017 WITH y
 MATCH (y)-[:CONTAINS]->(m:Month) WHERE m.value in [1,2,3,4] WITH y, m
-MATCH (m)-[:CONTAINS]->(d:Monday)
-MATCH (d)-[:CONTAINS]->(h:Hour) Where h.value = 10
-match (r:Room) Where r.rNum = "G0994"
+MATCH (m)-[:CONTAINS]->(d:Wednesday)
+MATCH (d)-[:CONTAINS]->(h:Hour) Where h.value = 16
+match (r:Room) Where r.rNum = "G0995"
 match (s:Subject) Where s.subName = "Database Management"
-match (t:Teacher) Where t.tachName = "Deirdre ODonovan"
 match (t:Teacher) Where t.tachName = "Deirdre ODonovan"
 match (z:StudProgram) Where z.spNum = "G-KSOFG73"
 CREATE (s)-[:taught_AT]->(h)
 CREATE (t)-[:teaches_AT]->(h)
 CREATE (z)-[:Attends]->(h)
+CREATE (r)-[:Room_For]->(h)
 RETURN y, m, d, h, r, s, t, z;	
 
 //create students Programs
-CREATE (n:StudProgram {spNum: "G-KBDIG72", spName: "BSc in Business Computing &amp; Digital Media", spLevel: 7, spYear: 2, spSemester: 4}
+CREATE (n:StudProgram {spNum: "G-KBDIG72", spName: "BSc in Business Computing &amp; Digital Media", spLevel: 7, spYear: 2, spSemester: 4, spGr: "A"})
 
 //create subjects
 CREATE (n:Subject {subNum: 41879, subName: "Data Centric Rad"})
