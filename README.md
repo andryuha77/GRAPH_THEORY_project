@@ -76,7 +76,7 @@ Current [Time Table](http://timetable.gmit.ie/) system in GMIT represented by 3 
 I my opinion current GMIT time-table is well implemented, of course there is always some confusion in start of the year but it is acceptable as it many constraints must be taken in consideration like resource constraints (expressing that only one course can be taught by an instructor or in a particular room at the same time), and group constraints (expressing relations between several classes, e.g., that two sections of the same lecture cannot be taught at the same time, or that some classes have to be taught one immediately after another).
 But anything can be improved, for example by adding another section to GMIT time-table like “Subject” where user can generate time table for specific subject.
 
-## Architecture
+## Design
 
 ### List my Questions.
 
@@ -104,9 +104,7 @@ From these questions, I can identify the attributes that must belong to entities
 
 >I planning to create a calendar using this [example](http://www.markhneedham.com/blog/2014/04/19/neo4j-cypher-creating-a-time-tree-down-to-the-day/) in neo4j, add hours and then connect other nodes (rooms, groups ex.) to it. 
 
-12/04/2017 Calendar created with addition of hours and Labels with day names added to day nodes. 
-
-Used queries included in  [ne4j_queries file](https://github.com/andryuha77/GRAPH_THEORY_project/blob/master/ne4j_queries.js) 
+## Implementation
 
 #### How I obtained the data in my prototype database.
 
@@ -114,7 +112,78 @@ To obtain data for my prototype database I navigate to page with desired data fo
 
 [Notepad vertical selection](http://stackoverflow.com/questions/1802616/how-to-select-columns-in-editors-atom-notepad-kate-vim-sublime-textpad-et) also very handy to use: in Notepad++ , you can select a particular columnholding ctrl + alt + shift and then left click mouse button and drag to select. Go to left top of the page. hold "shift key Now use right arrow key to select column. Now click "down arrow" key.
 
+#### Examples of used queries.
+
+12/04/2017 Calendar created with addition of hours and Labels with day names added to day nodes.
+
+Query I use to add dayName label  to days:	
+```javascript
+MATCH (year:Year)-[:CONTAINS]->(month)-[:CONTAINS]->(day)
+WITH year, month, day
+ORDER BY year.value, month.value, day.value
+WITH collect(day) AS days
+FOREACH(i in RANGE(3, length(days)-2, 7) |
+    FOREACH(day1 in [days[i]] |
+        FOREACH(day2 in [days[i+1]] |
+            SET day2: Tuesday )));
+```
+
+```mysql
+//create students Programs
+CREATE (n:StudProgram {spNum: "G-KBDIG72", spName: "BSc in Business Computing &amp; Digital Media", spLevel: 7, spYear: 2, spSemester: 4, spGr: "A"})
+
+//create subjects
+CREATE (n:Subject {subNum: 41879, subName: "Data Centric Rad"})
+CREATE (k:Subject {subNum: 50457, subName: "Object Oriented Programming"})
+
+//create Teachers
+CREATE (n:Teacher {tachName: "Damien Costello", email: "Damien.Costello@gmit.ie"})
+CREATE (j:Teacher {tachName: "Ian McLoughlin", email: "Ian.McLoughlin@gmit.ie"})
+
+```
+Also I included in my database all GMIT campus rooms with room capacity.
+```javascript
+CREATE (n:Room {rNum: "G0402", rName: "Biochemistry Lab",capacity: 18})
+```
+In my database I recreate my year curent timetable and time-tabele of other groups(A, B and C)
+
+Image of my cuurent time table: 
+
+<img src="https://github.com/andryuha77/GRAPH_THEORY_project/blob/master/TimeTable_LI.jpg?raw=true" 
+alt="IMAGE ALT TEXT HERE" width="720" height="540" border="10" />
+
+To do that and to create 4 relations between the nodes I used code below:
+```javascript
+//match all mondays in 2017 month 9-12 , Hour = 10 , room G0995 ,Subject ,
+//Teacher and generate relations between them 
+MATCH (y:Year) WHERE y.value = 2017 WITH y
+MATCH (y)-[:CONTAINS]->(m:Month) WHERE m.value in [1,2,3,4] WITH y, m
+MATCH (m)-[:CONTAINS]->(d:Wednesday)
+MATCH (d)-[:CONTAINS]->(h:Hour) Where h.value = 10
+match (r:Room) Where r.rNum = "G0995"
+match (s:Subject) Where s.subName = "Database Management"
+match (t:Teacher) Where t.tachName = "Deirdre ODonovan"
+match (z:StudProgram) Where z.spNum = "G-KSOFG73"
+CREATE (s)-[:taught_AT]->(h)
+CREATE (t)-[:teaches_AT]->(h)
+CREATE (z)-[:Attends]->(h)
+CREATE (r)-[:Room_For]->(h)
+RETURN y, m, d, h, r, s, t, z;	
+```
+Result of this Query presented in image below: 
+
+![](https://github.com/andryuha77/GRAPH_THEORY_project/blob/master/Deirdre_Monday_at_10.PNG?raw=true)
+
+More used queries included in  [ne4j_queries file](https://github.com/andryuha77/GRAPH_THEORY_project/blob/master/ne4j_queries.js)
+
 ### How to run the application
+Simply download [neo4j](https://neo4j.com/download/), unzip [GMIT_time.zip](https://github.com/andryuha77/GRAPH_THEORY_project/blob/master/GMIT_time.zip) archive to your machine. 
+
+Start neo4j with previously selected GMIT_time project, open project in your browser.
+
+user: neo4j 
+
+password:gmit
 
 ### References:
 Neo4j: https://en.wikipedia.org/wiki/Neo4j
@@ -123,4 +192,6 @@ neo4j.com: https://neo4j.com/why-graph-databases/
 
 unitime.org: http://www.unitime.org/uct_description.php
 
-[Notepad vertical selection](http://stackoverflow.com/questions/1802616/how-to-select-columns-in-editors-atom-notepad-kate-vim-sublime-textpad-et)
+Notepad vertical selection: http://stackoverflow.com/questions/1802616/how-to-select-columns-in-editors-atom-notepad-kate-vim-sublime-textpad-et
+
+Calendar example: http://www.markhneedham.com/blog/2014/04/19/neo4j-cypher-creating-a-time-tree-down-to-the-day/
